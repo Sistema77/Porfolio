@@ -1,0 +1,122 @@
+html{
+    font-family: 'Orbitron';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: #31b0d5;
+    position: fixed;
+    top: 0;
+    padding: 1em;
+    width: 100%; 
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+}
+
+header {
+    background: #31b0d5;
+    padding: 27% 50px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color:#31b0d5;
+}
+section {
+    margin: 3em;
+}
+path{
+    color: aliceblue;
+}
+
+svg{
+    margin: 1em;
+}
+
+.arrow{
+    margin-top: 3em;
+}
+.enlace{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+
+.name{
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    margin: 10vh;
+}
+.description{
+    margin-right: 5em;
+    margin-left: 5em;
+}
+.card-project{
+    margin: 1em;
+    padding: 1.5em;
+    padding-top: 1em;
+}
+.name-Project{
+    padding: 0.8em;
+}
+.text-description{
+    margin-top: 3em;
+}
+
+.link-project{
+    margin-top: 1.5em;
+}
+
+.container-skills{
+    margin: 5em;
+
+}
+.skill{
+    margin: 0.3em;
+    padding: 1em;
+    border-radius: 25% 10%;
+    background-color: #31b0d5;
+    color: aliceblue;
+}
+
+img{
+    width: 550px;
+}
+
+@media (max-width: 998px){
+    img{
+        width: 350px;
+    }
+    .text-description{
+        margin-top: 0;
+    }
+    
+    .link-project{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 798px){
+    img{
+        width: 250px;
+    }
+    .text-description{
+        margin-top: 0;
+    }
+    
+    .link-project{
+        margin-top: 0;
+    }
+}
